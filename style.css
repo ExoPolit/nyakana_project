@@ -131,6 +131,7 @@ h1{
     }
     .nav_btn{
         margin-top: 16px;
+        margin-left: -12px; /* Put margin of negative 12px here, therefore the box for the nav_btn will move to the left and it looks centered */
         background: none;
         border: none;
     }
