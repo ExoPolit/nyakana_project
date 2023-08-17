@@ -32,7 +32,7 @@
     list-style: none;
 }
 .nav_link{
-    margin: 0 0 0 50px;
+    margin: 0 24px; /* Decreased margin here */
     text-decoration: none;
     font-size: 18px;
     color: aliceblue;
@@ -123,7 +123,6 @@ h1{
         font-size: 40px;
         font-weight: 400;
         color: aliceblue;
-        padding-top: 8px;
     }
     .nav_link :hover{
         width: 100%;
@@ -139,13 +138,13 @@ h1{
         color: aliceblue;
         font-size: 40px;
         font-weight: 400;
-        margin: 40px;
+        margin: 40px;        /* just give a margin of 40px, it puts the links in the center of menu */
     }
+    
     .menu_bar{
         display: block;
     }
     #menuList{
-        text-align: left;
         margin-top: -28px ;
         overflow: hidden;
         transition: all 1s ease;
